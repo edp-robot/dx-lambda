@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-python" # codebase-name
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-fbez3zm1c8t3" # S3 bucket name
+s3_prefix = "sam-python" # codebase-name
+region = "eu-central-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
